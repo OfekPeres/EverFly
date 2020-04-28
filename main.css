@@ -1,0 +1,36 @@
+.Container {
+    display:flex;
+    grid-template-columns: 1fr;
+    justify-content: center;
+    align-items: center;
+}
+
+.Video-Container {
+    width: 69%;
+    margin-top: 10px;
+    margin-bottom: 1.5em;
+    align-self: center;
+    min-width: 278px;
+    
+    justify-self: center;
+    align-self: center;
+    
+}
+
+
+.Video-Aspect-Ratio {
+    position: relative;
+    padding-bottom: 56.25%; /* 16:9 */
+    height: 0;
+    width: 100%;
+    justify-self:center;
+    background-color: blue;
+}
+
+h1 {
+    text-align:center;
+}
+
+body {
+    background-color: aliceblue;
+}
